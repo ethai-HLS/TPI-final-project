@@ -1,7 +1,7 @@
 from openai import OpenAI
 import requests
 
-client = OpenAI(api_key="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") 
+client = OpenAI(api_key="INSERT_HERE") 
 gpt_url = "https://api.openai.com/v1/chat/completions" # the endpoint to hit for ChatGPT's chat API
 user_input = "" # initializing a user input for later
 
